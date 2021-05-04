@@ -26,7 +26,7 @@ import Photos
 
 public typealias cameraClosure = (_ images: [UIImage]?,_ skiped: Bool) -> Void
 public typealias translationsClosure = (_ key: String) -> String
-
+//test
 public class SBAImagePickerController {
     fileprivate let rootViewController: UIViewController
     fileprivate weak var photoAlbumsController: PhotoAlbumsViewController?
